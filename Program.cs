@@ -26,12 +26,12 @@
             Double tax = 0.06 * cost;
             Double totalCost = cost + tax;
 
-            Console.WriteLine($"Price of small room: ${sPrice}");
-            Console.WriteLine($"Price of large room: ${lPrice}");
-            Console.WriteLine($"Cost : ${cost}");
-            Console.WriteLine($"Tax : ${tax}");
+            Console.WriteLine($"Price of small room: {sPrice:C}");
+            Console.WriteLine($"Price of large room: {lPrice:C}");
+            Console.WriteLine($"Cost : {cost:C}");
+            Console.WriteLine($"Tax : {tax:C}");
             Console.WriteLine("===============================");
-            Console.WriteLine($"Total Estimate: ${totalCost}");
+            Console.WriteLine($"Total Estimate: {totalCost:C}");
             Console.WriteLine($"This estimate is valid for {eTime} days");
         }
     }
