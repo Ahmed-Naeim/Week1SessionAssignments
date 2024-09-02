@@ -33,10 +33,6 @@
             Console.WriteLine("===============================");
             Console.WriteLine($"Total Estimate: ${totalCost}");
             Console.WriteLine($"This estimate is valid for {eTime} days");
-
-
-
-
         }
     }
 }
